@@ -27,7 +27,8 @@ main > div:first-child {
 
 .gifContainer {
   position: relative;
-  width: 100%;
+  max-width: 100vw;
+  max-height: 450px;
   aspect-ratio: 1 / 1;
   border: 5px solid;
   border-image-slice: 1;
